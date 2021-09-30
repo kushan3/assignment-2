@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Harminder\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Harminder\\.nuget\\packages"
+    ]
+  }
+}

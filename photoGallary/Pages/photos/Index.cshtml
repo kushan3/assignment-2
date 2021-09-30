@@ -1,0 +1,54 @@
+@page
+@model photoGallary.Pages_photos.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.newPhoto[0].category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.newPhoto[0].captureDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.newPhoto[0].size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.newPhoto[0].Resolution)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.newPhoto) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.captureDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.size)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resolution)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

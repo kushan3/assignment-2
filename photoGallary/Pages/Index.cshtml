@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@{
+    var pics = new[]{
+        new{
+            Type="Birds",
+            Resolution="1050HD",
+            Size="11 mb",
+        },
+        new{
+            Type="Buildings",
+            Resolution="1050HD",
+            Size="13 mb",
+        },
+        new{
+             Type="Mountains",
+            Resolution="1050HD",
+            Size="16mb",
+        },
+        new{
+             Type="Animals",
+            Resolution="1050HD",
+            Size="10 mb",
+        },new{
+             Type="Cities",
+            Resolution="1050HD",
+            Size="15 mb",
+        }
+    };
+}
+@for (var i = 0; i <pics.Length; i++)
+{
+    var img =pics[i];
+    <text><strong> Picture category :@img.Type  <br/> </strong>
+            Resolution:@img.Resolution <br/>
+            Download Size:@img.Size <br/> </text>}
+

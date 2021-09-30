@@ -1,0 +1,43 @@
+@page
+@model photoGallary.Pages_photos.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>newPhoto</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.newPhoto.category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.newPhoto.category)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.newPhoto.captureDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.newPhoto.captureDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.newPhoto.size)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.newPhoto.size)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.newPhoto.Resolution)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.newPhoto.Resolution)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.newPhoto.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
