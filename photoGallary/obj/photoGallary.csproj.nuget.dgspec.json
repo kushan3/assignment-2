@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\karan\\assignment2\\photoGallary\\photoGallary.csproj": {}
+    "D:\\karan\\as2b\\photoGallary\\photoGallary.csproj": {}
   },
   "projects": {
-    "D:\\karan\\assignment2\\photoGallary\\photoGallary.csproj": {
+    "D:\\karan\\as2b\\photoGallary\\photoGallary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\karan\\assignment2\\photoGallary\\photoGallary.csproj",
+        "projectUniqueName": "D:\\karan\\as2b\\photoGallary\\photoGallary.csproj",
         "projectName": "photoGallary",
-        "projectPath": "D:\\karan\\assignment2\\photoGallary\\photoGallary.csproj",
+        "projectPath": "D:\\karan\\as2b\\photoGallary\\photoGallary.csproj",
         "packagesPath": "C:\\Users\\Harminder\\.nuget\\packages\\",
-        "outputPath": "D:\\karan\\assignment2\\photoGallary\\obj\\",
+        "outputPath": "D:\\karan\\as2b\\photoGallary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harminder\\AppData\\Roaming\\NuGet\\NuGet.Config"

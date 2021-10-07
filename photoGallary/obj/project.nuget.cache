@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PcucR2vmT34mxwLNiwZ8BF0yk63I9xB7/8Kpzh8m4G79MqhnIKjiXIZKQVei4lKaHrHIIEqKk2jt1RPV9VU4ww==",
+  "dgSpecHash": "+CPsB3GNT65ITYYW1IQVAe20U6d69+RXpJoDtiYauy/7++cgzq7p6NSFNuEWGkoZ05gT7a+TX9zb27dr6GxhcQ==",
   "success": true,
-  "projectFilePath": "D:\\karan\\assignment2\\photoGallary\\photoGallary.csproj",
+  "projectFilePath": "D:\\karan\\as2b\\photoGallary\\photoGallary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Harminder\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Harminder\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

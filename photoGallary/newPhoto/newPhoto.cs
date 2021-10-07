@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 namespace photoGallery.newPhoto
 {
-    public class newPhoto
+    public class Photo
     {
         public int ID { get; set; }
         public string category{ get; set; }
