@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 1rem auto;
+    width: 90%;
+}
+
+th {
+    background-color: #302F4D;
+    color: #F0D3F7;
+}
+
+input {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+}
+
+tr.found-first-name td {
+    background-color: darkgreen;
+    color: white;
+}

@@ -1,0 +1,56 @@
+{
+    "character": [{
+            "series": "Hannibal",
+            "episodes": "30",
+            "charcter": " Chesapeake",
+            "season": "7",
+            "killer": "Serial Killer name is Hannibal the Cannibal"
+        },
+        {
+            "series": "Will",
+            "episodes": "30",
+            "charcter": "FBI",
+            "season": "8",
+            "killer": "was a teacher at Quantico before becoming a serial killer hunter"
+        },
+
+        {
+            "series": "Better Call Saul",
+            "episodes": "30",
+            "charcter": "Crime",
+            "season": "6",
+            "killer": "Bob Odenkirk"
+        },
+        {
+            "series": "Alana",
+            "episodes": "30",
+            "charcter": "professor",
+            "season": "6",
+            "killer": "Was a student of Hannibal Lecter"
+        },
+        {
+            "series": "money heist",
+            "episodes": "30",
+            "charcter": "oliver",
+            "season": "5",
+            "killer": "Alex Heist"
+        },
+        {
+            "series": "Squid Game",
+            "episodes": "30",
+            "charcter": "Korean",
+            "season": "1",
+            "killer": "Hwang Dong-hyuk"
+
+
+        },
+        {
+            "series": "Brian",
+            "episodes": "20",
+            "charcter": "Behavioral",
+            "season": "3",
+            "killer": "silence oliver"
+
+        }
+    ]
+}
