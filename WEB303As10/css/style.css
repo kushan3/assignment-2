@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+label{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+input{
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    width: 100%;
+}
+
+#terms-check{
+    width: auto;
+    margin-top: 1rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.terms-label{
+    display: inline;
+    font-size: 1rem;
+}
+
+#submit{
+    margin-top: 1rem;
+    background-color: rgb(178, 222, 222);
+}
+
+select{
+    font-size: 1rem;
+}
+
+p{
+    text-align: center;
+}

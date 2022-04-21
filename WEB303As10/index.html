@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        Kushandeep Singh
+    </h1>
+
+    <form action="/register" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password">
+
+        <input type="checkbox" id="terms-check" name="terms-check">
+        <label class="terms-label" for="terms-check">I accept the terms of service</label>
+
+        <Label>Country</Label>
+        <select name="country" id="country"></select>
+
+        <input type="submit" value="submit" id="submit">
+    </form>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
