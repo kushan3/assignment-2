@@ -1,0 +1,13 @@
+body > .photo-viewer{
+    display: none;
+}
+.modal {
+
+    border: 5px solid rgb(128, 0, 0);
+    position: absolute;
+    z-index: 1000;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+   
+  }
